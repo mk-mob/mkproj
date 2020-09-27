@@ -1,0 +1,26 @@
+{
+  "name": "mkproj",
+  "version": "1.0.0",
+  "description": "first proj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-mob/mkporj.git"
+  },
+  "keywords": [
+    "MK"
+  ],
+  "author": "MK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mk-mob/mkporj/issues"
+  },
+  "homepage": "https://github.com/mk-mob/mkporj#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
