@@ -1,26 +1,19 @@
 {
-  "name": "mkproj",
+  "name": "rest-test",
   "version": "1.0.0",
-  "description": "first proj",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mk-mob/mkporj.git"
-  },
-  "keywords": [
-    "MK"
-  ],
-  "author": "MK",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mk-mob/mkporj/issues"
-  },
-  "homepage": "https://github.com/mk-mob/mkporj#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.5",
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
   }
 }
