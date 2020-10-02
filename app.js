@@ -8,9 +8,9 @@ app.listen(port);
 const mysql = require('mysql')
 
 const con = mysql.createConnection({
-	host: 'myexpdb.cjcnarb9og1a.ap-northeast-1.rds.amazonaws.com',
-	user: 'mkmob',
-	password: 'mkmd4649',
+	host: 'localhost',
+	user: 'root',
+	password: 'Mkmob_4649',
 	database: 'express_db'	
 });
 
